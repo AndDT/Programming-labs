@@ -26,15 +26,15 @@ public class vector {
 		{
 			if (vector[i]>max_){max_=vector[i];index=i;}
 		}
-		System.out.println("\nmax="+max_);
-		System.out.println("index_max="+(index+1));
+		System.out.println("\nНайбільше="+max_);
+		System.out.println("Індекс найбільшого="+(index+1));
 		int min_=vector[0];
 		int index2=0;
 		for (int i=0; i<size; i++)
 		{
 			if (vector[i]<min_){min_=vector[i];index2=i;}
 		}
-		System.out.println("min="+min_);
-		System.out.println("index_min="+(index2+1));
+		System.out.println("Найменьше="+min_);
+		System.out.println("Індекс найменшого="+(index2+1));
 	}
 }
